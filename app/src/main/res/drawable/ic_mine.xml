@@ -1,0 +1,12 @@
+<vector
+    android:drawable="@color/but_text"
+    android:height="50dp"
+    android:width="50dp"
+    android:autoMirrored="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:pathData="M4, 45"/>
+
+
+
+</vector>

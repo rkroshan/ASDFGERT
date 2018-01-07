@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/AboutNitp"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Nitp" />
+        <item
+            android:id="@+id/AboutSac"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Sac" />
+        <item
+            android:id="@+id/Create_blog"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Create Blog" />
+        <item
+            android:id="@+id/create_update"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Create Update" />
+        <item
+            android:id="@+id/Publish_Result"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Publish Result" />
+        <item
+            android:id="@+id/nitp_maps"
+            android:icon="@drawable/ic_menu_maps"
+            android:title="NITP Map" />
+        <item
+            android:id="@+id/dev"
+            android:icon="@drawable/ic_developers_black_24dp"
+            android:title="Developers" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:background="#55ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/set_postimage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/submit_post_btn"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="#88ffffff"/>
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@id/set_postimage"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#77ffffff"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/set_posttitle"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Title"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+                <TextView
+                    android:id="@+id/set_postDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Description this is the description"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <TextView
+                    android:id="@+id/set_postwriter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Posted By: Roshan Kumar"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+                <TextView
+                    android:id="@+id/set_dateofcreation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Dated: 25.10.2017"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

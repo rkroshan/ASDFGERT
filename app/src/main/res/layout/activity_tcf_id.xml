@@ -1,0 +1,80 @@
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tcf_id_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR TCF ID IS"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tcf_id_textview"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:background="@mipmap/tcfid_display"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:text="TCFID000"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+
+    <!--<TextView
+        android:id="@+id/tcf_id_textview"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:layout_below="@id/tcf_id_textview_heading"
+        android:background="@mipmap/tcfid_display"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:text="TCFID000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR TCF ID IS"
+        android:id="@+id/tcf_id_textview_heading"
+        android:padding="5dp"
+        android:textSize="30sp"
+
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+    --><!--<Button
+        android:id="@+id/tcf_id_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tcfid_begin"
+        android:textColor="@color/tcf_id_bg_color"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="135dp"
+        android:gravity="center"
+        android:enabled="false"
+        android:text="Begin" />-->
+
+</RelativeLayout>

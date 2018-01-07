@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="6dp"
+    android:padding="4dp"
+    android:layout_marginBottom="6dp"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="72dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="72dp"
+        android:fitsSystemWindows="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/btn_corona">
+
+        <ImageView
+            android:id="@+id/person_image_small"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3.2dp"
+            android:src="@mipmap/sac_member"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/corona_melange_text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Technical Fest"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <!--<TextView
+        android:id="@+id/corona_melange_text_content_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Technical Fest"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceSmall"/>-->
+    </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

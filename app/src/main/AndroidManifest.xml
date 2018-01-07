@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajatv.surajv.roshank.sac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <application
+        android:name=".SAC"
+        android:allowBackup="true"
+        android:icon="@mipmap/sac_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/sac_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+            <meta-data android:name="com.inthecheesefactory.lab.glidepicasso.GlideConfiguration"
+            android:value="GlideModule"/>
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Signup.SignUp1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Signup.SignUp2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Signup.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Signup.EntryPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SasCouncil.SASCouncilActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".SasCouncil.EachMemberDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sponsership.Sponsership"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dangal.Dangal"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash.Splash1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signup.EntryPage1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tcfID.tcfID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoronaMelange.CoronaMelange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoronaMelange.Clubs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoronaMelange.Events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoronaMelange.EventDetail_new"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsAndNotice.NewsAndNotice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Results.Results"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventFinder.EventFinder"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".developers.Developers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NitpClubs.NitpClubs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsAndNotice.SAC_Timeline.blogfragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu.AboutSac"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".maps.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Splash.Splash2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu.AboutFestival"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu.AboutNITPactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Results.Publish_Result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsAndNotice.SAC_Timeline.FullImage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NitpClubs.NitpClubs_details"></activity>
+    </application>
+
+</manifest>

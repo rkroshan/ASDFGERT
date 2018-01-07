@@ -1,0 +1,96 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@mipmap/dash_upper"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/nitp_club_details_back"
+            android:layout_width="80dp"
+            android:foregroundGravity="left"
+            android:layout_height="60dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nitp_club_details_scrollview"
+    android:background="@mipmap/nit_clubs"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<!--
+        <LinearLayout
+            android:id="@+id/corona_upper"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@mipmap/cm_upper">
+
+            <ImageView
+                android:id="@+id/nitp_club_details_back"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/back"
+                />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/nitp_club_details_club_logo_imageview"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/suraj14"
+                android:layout_marginTop="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:padding="2dp"
+                android:background="#fff"
+                />
+            <TextView
+                android:id="@+id/nitp_club_details_club_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Club Name"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/nitp_club_details_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:textColor="#fff"
+                android:paddingVertical="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:padding="2dp"
+                android:background="#fff"
+                />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

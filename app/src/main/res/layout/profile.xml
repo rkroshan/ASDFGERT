@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/profile_linearlayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:elevation="12dp"
+            android:layout_gravity="center"
+            android:id="@+id/view2"
+            app:cardCornerRadius="80dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/profile_pic"
+                android:src="@mipmap/londa"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+        </android.support.v7.widget.CardView>
+        <!--<ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/profile_pic_layer_list"
+            android:src="@mipmap/s1" />
+-->
+        <TextView
+            android:id="@+id/dashboard_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:text="Rajat Vallabh"
+            android:textSize="38sp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+            <Button
+                android:id="@+id/dashboard_tcfId"
+                android:layout_width="140dp"
+                android:gravity="center"
+                android:background="@mipmap/tcfid"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/red"
+                android:text="TCF123"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dashboard_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nit Patna"
+            android:padding="2dp"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dashboard_branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:padding="2dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dashboard_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2nd Year"
+            android:padding="2dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dashboard_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7992307400"
+            android:padding="2dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dashboard_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rkroshan.1997@gmail.com"
+            android:padding="2dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events Registered"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/dashboard_eventRegistered"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            tools:text="5"
+            android:layout_margin="4dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@drawable/dashboard_eventregistered_background"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/register_popup_linearlayout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#77ffffff"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register Your Self first..."
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="REGISTER"
+            android:gravity="center" />
+    </LinearLayout>
+</FrameLayout>

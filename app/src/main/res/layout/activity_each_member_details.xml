@@ -1,0 +1,159 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rajatv.surajv.roshank.sac.SasCouncil.EachMemberDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:background="@mipmap/sas_council_above_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/sac_member_imageview"
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/sac_member"
+                android:transitionName="contact_image" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sac_member_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rajat Vallabh"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/sac_member_post_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:text="Chief Editor SAS Council\nCSEE 2nd year"
+                android:textSize="15sp"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/call_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/call_icon" />
+
+            <ImageView
+                android:id="@+id/whatsApp_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/whaatsapp" />
+
+            <ImageView
+                android:id="@+id/Gmail_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/gmail" />
+
+            <ImageView
+                android:id="@+id/Facebook_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/instagram_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/instagram" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quotation"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Nothing is Impossible if you put heart and soul in that"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#4994D0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@mipmap/sas_council_below_bg" />
+
+</LinearLayout>
+    <ImageButton
+        android:id="@+id/each_member_backbutton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="#00000000"
+        android:src="@mipmap/back"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp" />
+
+    <ImageButton
+        android:id="@+id/each_member_Favourite"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="16dp"
+        android:background="#00000000"
+        android:src="@mipmap/star"
+        android:layout_alignEnd="@+id/each_member_backbutton"
+        android:scaleType="fitXY"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/results_lower"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rajatv.surajv.roshank.sac.Results.Results">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_results"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@mipmap/results_upper"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <View
+            android:id="@+id/results_back"
+            android:layout_width="40dp"
+            android:foregroundGravity="left"
+            android:layout_height="40dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout_results"
+        android:layout_width="match_parent"
+        app:tabMinWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:paddingBottom="4dp"
+        style="@style/Base.Widget.Design.TabLayout"
+        android:layout_height="30dp">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

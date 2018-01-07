@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1079309377792",
+    "firebase_url": "https://sac-nit-patna-551c4.firebaseio.com",
+    "project_id": "sac-nit-patna-551c4",
+    "storage_bucket": "sac-nit-patna-551c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079309377792:android:296555bd905ad09f",
+        "android_client_info": {
+          "package_name": "com.rajatv.surajv.roshank.sac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079309377792-abv8bmpd7f695hrkd2q55u2rgrvd75vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rajatv.surajv.roshank.sac",
+            "certificate_hash": "a1224f0c6fa514608d854354495ea532c8dcc49f"
+          }
+        },
+        {
+          "client_id": "1079309377792-mvno2io8nf35ove0e6p6523a4a036851.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFsEb3pd2IHD0O8AYIAEHFRWNR1PatCBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079309377792-mvno2io8nf35ove0e6p6523a4a036851.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

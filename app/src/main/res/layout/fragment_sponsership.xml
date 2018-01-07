@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rajatv.surajv.roshank.sac.Sponsership.Sponsership">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@mipmap/sponsorship_upper"
+        android:layout_height="80dp"
+       >
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sponser_back"
+            android:layout_width="60dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:background="@mipmap/sponsorship_bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="37dp"
+                android:src="@mipmap/sponsorship_upper2"/>
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="272dp"
+                android:src="@mipmap/sponsorship_upper3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ashutosh Kumar"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="President, SAS Council cum\nStudent Coordinator, TCF’18\n+91 95043 19134\nerashu3436@gmail.com"
+                android:textAppearance="?android:textAppearanceSmall"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Namit Ranjan Pathak"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Joint Secretary, SAS Council cum\nSponsorship Coordinator, TCF’18\n+91 94550 50997\nnamitranjanpathak@yahoo.in"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ankur Singh"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="General Secretary, SAS Council cum\nMedia Coordinator, TCF’18\n+91 82945 56381\nawsmdawsmad07@gmail.com"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Rajat Vallabh"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Chief Editor, SAS Council cum\nPromotional Coordinator, TCF’18\n+91 90454 32031\nvallabhrajat@gmail.com"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

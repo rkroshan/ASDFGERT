@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/timelinebelow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.rajatv.surajv.roshank.sac.NewsAndNotice.SAC_Timeline.blogfragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@mipmap/timelineupper"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <View
+            android:id="@+id/blog_back"
+            android:layout_width="70dp"
+            android:foregroundGravity="left"
+            android:layout_height="70dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/add_btn"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="#00ffffff"/>
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@id/imageButton"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="#77ffffff"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/post_title"
+                        android:gravity="right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:hint="Title"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+                    <EditText
+                        android:id="@+id/post_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:hint="Description this is the description"
+                        android:textAppearance="?android:textAppearanceMedium"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/submit_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submit_post_btn"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:text="submit post"
+        android:textColor="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+
+</LinearLayout>
+</ScrollView>
+

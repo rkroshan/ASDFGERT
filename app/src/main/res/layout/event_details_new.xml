@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_detail_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tech_event_bg_below"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eventdetail_title_bg"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/eventdetail_subevent_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="ALGO ZIPPER"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/eventdetail_event_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Byte World"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/eventdetails_eventletter_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:text="A"
+            android:textSize="32sp"
+            android:textColor="#fff"
+            android:transitionName="eventletter_transition"
+            android:background="@drawable/eventdetail_circle"
+            android:backgroundTint="#f00"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/eventdetail_about_bg"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="2dp"
+            android:background="#fff"/>
+        <TextView
+            android:id="@+id/eventdetail_about"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            tools:text="wjhfuwj\nkehurerj"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="@drawable/eventdetail_about_bg"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="DETAILS"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="2dp"
+            android:background="#fff"/>
+        <TextView
+            android:id="@+id/eventdetail_details"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="Further Details will be updated in the next update\nVersion 18.1"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/event_register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:elevation="10dp"
+        android:text="Register"
+        android:background="#fff"
+        android:enabled="true"
+        android:padding="20dp"/>
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One Click Registration will start from January"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:padding="8dp"/>-->
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1"
+    android:gravity="bottom"
+    android:paddingBottom="80dp"
+    android:background="@mipmap/front_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/google_signin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign in"
+            android:paddingLeft="20dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_signin_bg"
+            android:drawableLeft="@drawable/common_google_signin_btn_icon_dark"
+            />
+
+    </LinearLayout>
+</LinearLayout>

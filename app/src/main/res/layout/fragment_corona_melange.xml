@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/corona_layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rajatv.surajv.roshank.sac.CoronaMelange.CoronaMelange">
+
+    <LinearLayout
+        android:id="@+id/corona_upper"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:background="@mipmap/cm_upper"></LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="24dp"
+        android:layout_gravity="center"
+        android:id="@+id/CoronaMelage_RecyclerView"
+        android:layout_width="match_parent"
+        android:background="@mipmap/cm_bg"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#f7f4f5</color>
+    <color name="transparent">#85f4f7f5</color>
+    <color name="light_white">#d9f1efef</color>
+    <color name="gray">#44e2dadd</color>
+    <color name="but_text">#009846</color>
+    <color name="red">#f91626</color>
+    <color name="button_events">#a1e787</color>
+    <color name="darkgreen">#277c08</color>
+    <color name="tcf_id_bg_color">#ef7f1a</color>
+    <color name="BLACK">#00000000</color>
+    <color name="WHITE">#fff</color>
+    <color name="brown">#67221E</color>
+
+
+
+    <color name="dot_dark_active">#424541</color>
+    <color name="dot_dark_inactive">#c9d1c6</color>
+    <color name="search">#fff</color>
+
+    <color name="color1">#E31E24</color>
+    <color name="color2">#009846</color>
+    <color name="color3">#EF7F1A</color>
+    <color name="color4">#FFED00</color>
+    <color name="color5">#393185</color>
+    <color name="color6">#A75F4A</color>
+    <color name="color7">#00A0E3</color>
+
+
+</resources>

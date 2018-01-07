@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.rajatv.surajv.roshank.sac.CoronaMelange.Clubs">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_clubs"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@mipmap/tech_event_bg_upper"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:weightSum="1">
+
+        <View
+            android:id="@+id/clubs_back"
+            android:layout_width="40dp"
+            android:foregroundGravity="left"
+            android:layout_height="64dp" />
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="24dp"
+        android:id="@+id/clubs_RecyclerView"
+        android:layout_width="match_parent"
+        android:background="@mipmap/tech_event_bg_below"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
